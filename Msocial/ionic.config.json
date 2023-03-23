@@ -1,0 +1,7 @@
+{
+  "name": "Msocial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
