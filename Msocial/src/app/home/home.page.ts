@@ -16,4 +16,8 @@ export class HomePage {
   {
     this.fotoService.addNewToGallery()
   }
+
+  async ngOnInit() {
+    await this.fotoService.loadSaved()
+  }
 }
